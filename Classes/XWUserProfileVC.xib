@@ -54,7 +54,7 @@
                                         <constraint firstAttribute="height" constant="300" id="mBj-UV-s0B"/>
                                     </constraints>
                                 </imageView>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jay.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C9M-jd-hDH">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jay.png" translatesAutoresizingMaskIntoConstraints="NO" id="C9M-jd-hDH">
                                     <rect key="frame" x="122.5" y="65" width="75" height="75"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="75" id="HtL-Nf-duN"/>
@@ -153,6 +153,6 @@
     </objects>
     <resources>
         <image name="bg_profile.jpg" width="375" height="360"/>
-        <image name="jay.jpg" width="120" height="120"/>
+        <image name="jay.png" width="120" height="120"/>
     </resources>
 </document>
