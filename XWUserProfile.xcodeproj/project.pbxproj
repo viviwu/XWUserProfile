@@ -7,35 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D075A651DF0147500B62C6C /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D075A641DF0147500B62C6C /* HMSegmentedControl.m */; };
 		0D075A681DF0148400B62C6C /* XWUserPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D075A671DF0148400B62C6C /* XWUserPageVC.m */; };
-		0D075A6C1DF0149300B62C6C /* XWUserProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D075A6A1DF0149300B62C6C /* XWUserProfileVC.m */; };
-		0D075A6D1DF0149300B62C6C /* XWUserProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D075A6B1DF0149300B62C6C /* XWUserProfileVC.xib */; };
-		0D075A701DF015C400B62C6C /* XWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D075A6F1DF015C400B62C6C /* XWNavigationController.m */; };
-		0D075A721DF0169200B62C6C /* bg_profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D075A711DF0169200B62C6C /* bg_profile.jpg */; };
-		0D075A741DF017BB00B62C6C /* allure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D075A731DF017BB00B62C6C /* allure.jpg */; };
-		0D075A761DF0184300B62C6C /* jay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D075A751DF0184300B62C6C /* jay.jpg */; };
 		0D168E511DEDB8700069B002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D168E501DEDB8700069B002 /* main.m */; };
 		0D168E541DEDB8700069B002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D168E531DEDB8700069B002 /* AppDelegate.m */; };
 		0D168E571DEDB8700069B002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D168E561DEDB8700069B002 /* ViewController.m */; };
 		0D168E5A1DEDB8700069B002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D168E581DEDB8700069B002 /* Main.storyboard */; };
 		0D168E5C1DEDB8700069B002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D168E5B1DEDB8700069B002 /* Assets.xcassets */; };
 		0D168E5F1DEDB8700069B002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D168E5D1DEDB8700069B002 /* LaunchScreen.storyboard */; };
+		0D66B0601DF5B36E000CC61D /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B05A1DF5B36E000CC61D /* HMSegmentedControl.m */; };
+		0D66B0611DF5B36E000CC61D /* XWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B05C1DF5B36E000CC61D /* XWNavigationController.m */; };
+		0D66B0621DF5B36E000CC61D /* XWUserProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B05E1DF5B36E000CC61D /* XWUserProfileVC.m */; };
+		0D66B0631DF5B36E000CC61D /* XWUserProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D66B05F1DF5B36E000CC61D /* XWUserProfileVC.xib */; };
+		0D66B0691DF5B383000CC61D /* bg_profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D66B0661DF5B383000CC61D /* bg_profile.jpg */; };
+		0D66B06A1DF5B383000CC61D /* jay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D66B0671DF5B383000CC61D /* jay.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D075A631DF0147500B62C6C /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
-		0D075A641DF0147500B62C6C /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		0D075A661DF0148400B62C6C /* XWUserPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWUserPageVC.h; sourceTree = "<group>"; };
 		0D075A671DF0148400B62C6C /* XWUserPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWUserPageVC.m; sourceTree = "<group>"; };
-		0D075A691DF0149300B62C6C /* XWUserProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWUserProfileVC.h; sourceTree = "<group>"; };
-		0D075A6A1DF0149300B62C6C /* XWUserProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWUserProfileVC.m; sourceTree = "<group>"; };
-		0D075A6B1DF0149300B62C6C /* XWUserProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWUserProfileVC.xib; sourceTree = "<group>"; };
-		0D075A6E1DF015C400B62C6C /* XWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNavigationController.h; sourceTree = "<group>"; };
-		0D075A6F1DF015C400B62C6C /* XWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNavigationController.m; sourceTree = "<group>"; };
-		0D075A711DF0169200B62C6C /* bg_profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_profile.jpg; sourceTree = "<group>"; };
-		0D075A731DF017BB00B62C6C /* allure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allure.jpg; sourceTree = "<group>"; };
-		0D075A751DF0184300B62C6C /* jay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jay.jpg; sourceTree = "<group>"; };
 		0D168E4C1DEDB8700069B002 /* XWUserProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWUserProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D168E501DEDB8700069B002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D168E521DEDB8700069B002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +35,15 @@
 		0D168E5B1DEDB8700069B002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D168E5E1DEDB8700069B002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D168E601DEDB8700069B002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D66B0591DF5B36E000CC61D /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		0D66B05A1DF5B36E000CC61D /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		0D66B05B1DF5B36E000CC61D /* XWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNavigationController.h; sourceTree = "<group>"; };
+		0D66B05C1DF5B36E000CC61D /* XWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNavigationController.m; sourceTree = "<group>"; };
+		0D66B05D1DF5B36E000CC61D /* XWUserProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWUserProfileVC.h; sourceTree = "<group>"; };
+		0D66B05E1DF5B36E000CC61D /* XWUserProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWUserProfileVC.m; sourceTree = "<group>"; };
+		0D66B05F1DF5B36E000CC61D /* XWUserProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWUserProfileVC.xib; sourceTree = "<group>"; };
+		0D66B0661DF5B383000CC61D /* bg_profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_profile.jpg; sourceTree = "<group>"; };
+		0D66B0671DF5B383000CC61D /* jay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jay.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,23 +76,15 @@
 		0D168E4E1DEDB8700069B002 /* XWUserProfile */ = {
 			isa = PBXGroup;
 			children = (
+				0D66B0581DF5B36E000CC61D /* Classes */,
 				0D168E521DEDB8700069B002 /* AppDelegate.h */,
 				0D168E531DEDB8700069B002 /* AppDelegate.m */,
 				0D168E551DEDB8700069B002 /* ViewController.h */,
 				0D168E561DEDB8700069B002 /* ViewController.m */,
-				0D075A6E1DF015C400B62C6C /* XWNavigationController.h */,
-				0D075A6F1DF015C400B62C6C /* XWNavigationController.m */,
-				0D075A631DF0147500B62C6C /* HMSegmentedControl.h */,
-				0D075A641DF0147500B62C6C /* HMSegmentedControl.m */,
-				0D075A691DF0149300B62C6C /* XWUserProfileVC.h */,
-				0D075A6A1DF0149300B62C6C /* XWUserProfileVC.m */,
-				0D075A6B1DF0149300B62C6C /* XWUserProfileVC.xib */,
 				0D075A661DF0148400B62C6C /* XWUserPageVC.h */,
 				0D075A671DF0148400B62C6C /* XWUserPageVC.m */,
 				0D168E581DEDB8700069B002 /* Main.storyboard */,
-				0D075A751DF0184300B62C6C /* jay.jpg */,
-				0D075A731DF017BB00B62C6C /* allure.jpg */,
-				0D075A711DF0169200B62C6C /* bg_profile.jpg */,
+				0D66B0641DF5B383000CC61D /* Resource */,
 				0D168E5B1DEDB8700069B002 /* Assets.xcassets */,
 				0D168E5D1DEDB8700069B002 /* LaunchScreen.storyboard */,
 				0D168E601DEDB8700069B002 /* Info.plist */,
@@ -109,6 +99,29 @@
 				0D168E501DEDB8700069B002 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D66B0581DF5B36E000CC61D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D66B0591DF5B36E000CC61D /* HMSegmentedControl.h */,
+				0D66B05A1DF5B36E000CC61D /* HMSegmentedControl.m */,
+				0D66B05B1DF5B36E000CC61D /* XWNavigationController.h */,
+				0D66B05C1DF5B36E000CC61D /* XWNavigationController.m */,
+				0D66B05D1DF5B36E000CC61D /* XWUserProfileVC.h */,
+				0D66B05E1DF5B36E000CC61D /* XWUserProfileVC.m */,
+				0D66B05F1DF5B36E000CC61D /* XWUserProfileVC.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0D66B0641DF5B383000CC61D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0D66B0661DF5B383000CC61D /* bg_profile.jpg */,
+				0D66B0671DF5B383000CC61D /* jay.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,13 +183,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D075A761DF0184300B62C6C /* jay.jpg in Resources */,
-				0D075A741DF017BB00B62C6C /* allure.jpg in Resources */,
+				0D66B06A1DF5B383000CC61D /* jay.jpg in Resources */,
+				0D66B0631DF5B36E000CC61D /* XWUserProfileVC.xib in Resources */,
 				0D168E5F1DEDB8700069B002 /* LaunchScreen.storyboard in Resources */,
-				0D075A721DF0169200B62C6C /* bg_profile.jpg in Resources */,
-				0D075A6D1DF0149300B62C6C /* XWUserProfileVC.xib in Resources */,
 				0D168E5C1DEDB8700069B002 /* Assets.xcassets in Resources */,
 				0D168E5A1DEDB8700069B002 /* Main.storyboard in Resources */,
+				0D66B0691DF5B383000CC61D /* bg_profile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,13 +199,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D075A6C1DF0149300B62C6C /* XWUserProfileVC.m in Sources */,
 				0D168E571DEDB8700069B002 /* ViewController.m in Sources */,
-				0D075A651DF0147500B62C6C /* HMSegmentedControl.m in Sources */,
 				0D075A681DF0148400B62C6C /* XWUserPageVC.m in Sources */,
 				0D168E541DEDB8700069B002 /* AppDelegate.m in Sources */,
-				0D075A701DF015C400B62C6C /* XWNavigationController.m in Sources */,
 				0D168E511DEDB8700069B002 /* main.m in Sources */,
+				0D66B0621DF5B36E000CC61D /* XWUserProfileVC.m in Sources */,
+				0D66B0611DF5B36E000CC61D /* XWNavigationController.m in Sources */,
+				0D66B0601DF5B36E000CC61D /* HMSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
