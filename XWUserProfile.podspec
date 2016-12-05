@@ -72,6 +72,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
+  s.ios.deployment_target = "8.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,12 +90,12 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "XWUserProfile/Classes"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
+  s.public_header_files = "XWUserProfile/Classes"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -106,6 +107,8 @@ Pod::Spec.new do |s|
 
   # s.resource  = "bg_profile.jpg"
   # s.resources = "Resources/*.png"
+  s.resource  = "XWUserProfile/Resources/bg_profile.jpg"
+  s.resources = "XWUserProfile/Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -130,6 +133,7 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
